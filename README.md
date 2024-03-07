@@ -1,2 +1,2 @@
-# owl-todo-list
-Self Learn Odoo JS Framework - OWL
+# Odoo OWL Framework
+Self-Learn Odoo JS Framework - OWL
