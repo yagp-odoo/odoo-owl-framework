@@ -1,0 +1,12 @@
+<templates>
+    <t t-name="owl_todo.Todo">
+        <div class="container py-3">
+        <div class="card">
+        <div class="card-body">
+        <TodoInput />
+        <TodoList />
+        </div>
+        </div>
+        </div>
+    </t>
+</templates>

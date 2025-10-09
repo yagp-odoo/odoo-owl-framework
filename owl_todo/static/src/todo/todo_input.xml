@@ -1,0 +1,9 @@
+<templates>
+    <t t-name="owl_todo.TodoInput">
+        <div class="d-flex gap-2 mb-3">
+            <input type="text" class="form-control" placeholder="Add a todo item..."
+                t-model="state.value" t-on-keydown="onKeydown" t-ref="inputRef"/>
+            <button class="btn btn-info" t-on-click="onClick ">Add</button>
+        </div>
+    </t>
+</templates>
